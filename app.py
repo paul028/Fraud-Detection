@@ -1,14 +1,14 @@
 import pandas as pd
 from fastapi import FastAPI
 
-from lib.constants import ARTIFACTS_PATH
+from lib.constants import MODEL_PATH
 from lib.db import *
 from lib.utils import *
 from lib.transaction import Transaction
 
 conn = create_db_connection()
 app = FastAPI()
-type_encoder, model, scaler = load_artifacts(ARTIFACTS_PATH)
+type_encoder, model, scaler = load_model(MODEL_PATH)
 
 @app.get("/")
 async def root():
