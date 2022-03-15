@@ -19,7 +19,7 @@ This Repository contains my solution to the ML challenge of Plentina.
 │
 ├── app.py                                 <- FastApi application
 |
-├── dockerfile                             <- Build docker image
+├── dockerfile                             
 │
 └── 
 ```
