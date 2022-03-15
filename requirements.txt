@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+jupyterlab
+seaborn
+matplotlib
+fastapi
+uvicorn
+pydantic
+pickle-mixin
+plotly
+sqlalchemy
+mysqlclient
+imbalanced-learn

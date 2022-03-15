@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib import pyplot
 
-sns.set_theme(style="darkgrid")
+#sns.set_theme(style="darkgrid")
 A4_DIMS = (11.7, 8.27)
 
 def countplot(data, column, hue=None, log=False):
