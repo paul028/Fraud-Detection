@@ -2,7 +2,7 @@
 
 ### Directory structure:
 
-
+```
 │
 ├── data                                   <- Directory for the dataset transactions_train.csv
 │
