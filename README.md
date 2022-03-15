@@ -1,4 +1,5 @@
 # Fraud-Detection
+This Repository contains my solution to the ML challenge of Plentina.
 
 ### Directory structure:
 
@@ -8,12 +9,12 @@
 │
 │
 ├── lib
-|   ├── constants.py.example               <- Template for constants file storing values
-|   ├── transaction.py                     <- Basic Model for transaction reqquest
-│   └── utils.py                           <- Utility functions
+|   ├── constants.py.example              
+|   ├── transaction.py                     
+│   └── utils.py                           
 │
 ├── notebooks                              <- Jupyter notebooks
-│   ├── Exploratory Data Analysis.py    <- EDA for transactions_train.csv dataset
+│   ├── Exploratory Data Analysis.py    
 
 │
 ├── app.py                                 <- FastApi application
@@ -22,4 +23,5 @@
 │
 └── 
 ```
-
+Google Slide Link
+https://docs.google.com/presentation/d/1cDwuk6Xg8T_pqXNh3YTkG3odmirkz_Gxq8_dZEYpWuw/edit#slide=id.p
